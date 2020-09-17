@@ -1,0 +1,23 @@
+@media print {
+
+  body > *:not(main) {
+    display: none;
+  }
+
+  body {
+    background-color: #fff;
+  }
+
+  @page {
+    margin: 1cm;
+  }
+
+  img,
+  figure,
+  ul,
+  ol,
+  dl,
+  table {
+    page-break-inside: avoid;
+  }
+}

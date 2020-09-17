@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @include main-font;
+}
+
+article,
+aside,
+address,
+header,
+nav,
+main,
+section,
+footer,
+div,
+p,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+  display: block;
+}
+
+a,
+span,
+em,
+i,
+b,
+strong,
+sup,
+sub,
+mark,
+q,
+cite {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+
+  > * {
+    color: inherit;
+  }
+}
+
+div,
+p {
+  font-size: $font-size-paragraph;
+  line-height: $line-height-paragraph;
+  @include breakpoint(mobile) {
+    font-size: $font-size-paragraph-mobile;
+    line-height: $line-height-paragraph-mobile;
+  }
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+img,
+figure {
+  margin-bottom: $margin-bottom-paragraph;
+  @include breakpoint(mobile) {
+    margin-bottom: $margin-bottom-paragraph-mobile;
+  }
+}

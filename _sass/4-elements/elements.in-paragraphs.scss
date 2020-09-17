@@ -1,0 +1,30 @@
+b,
+strong {
+  font-weight: 600;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
+}
+
+mark {
+  background-color: #aaa;
+}
+
+abbr {
+  text-decoration: none;
+
+  &::after {
+    content: '(' attr(title) ')'; // suggested use of the title attribute to be displayed as text
+    margin-left: .2em;
+  }
+}

@@ -1,0 +1,9 @@
+[href='#main'] {
+  position: absolute;
+  right: 100%;
+  top: 80px;
+
+  &:focus {
+    right: auto;
+  }
+}
