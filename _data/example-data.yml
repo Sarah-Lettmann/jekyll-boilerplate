@@ -1,0 +1,15 @@
+- title: Menu Item 1
+  href: /page1.html
+  submenu:
+    - title: Menu Item 4
+      href: /page4.html
+    - title: Menu Item 5
+      href: /page5.html
+    - title: Menu Item 6
+      href: /page6.html
+
+- title: Menu Item 2
+  href: /page2.html
+
+- title: Menu Item 3
+  href: /page3.html

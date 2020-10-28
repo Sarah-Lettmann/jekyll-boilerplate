@@ -8,6 +8,20 @@ i {
   font-style: italic;
 }
 
+u {
+  text-decoration: underline;
+}
+
+del,
+s {
+  text-decoration: line-through;
+}
+
+ins {
+  color: green;
+  text-decoration: underline;
+}
+
 sub {
   vertical-align: sub;
 }

@@ -1,0 +1,17 @@
+@mixin skew($deg) {
+  -ms-transform: skewY($deg);
+  -webkit-transform: skewY($deg);
+  transform: skewY($deg);
+}
+
+@mixin rotate($deg) {
+  -ms-transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin translate2D($x, $y) {
+  -ms-transform: translate($x, $y);
+  -webkit-transform: translate($x, $y);
+  transform: translate($x, $y);
+}
